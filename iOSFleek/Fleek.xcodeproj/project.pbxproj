@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D95943D1BF7CE570002348F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95943C1BF7CE570002348F /* AppDelegate.swift */; };
+		5D95943F1BF7CE570002348F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95943E1BF7CE570002348F /* ViewController.swift */; };
+		5D9594421BF7CE570002348F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594401BF7CE570002348F /* Main.storyboard */; };
+		5D9594441BF7CE570002348F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594431BF7CE570002348F /* Assets.xcassets */; };
+		5D9594471BF7CE570002348F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594451BF7CE570002348F /* LaunchScreen.storyboard */; };
+		5D9594521BF7CE570002348F /* FleekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9594511BF7CE570002348F /* FleekTests.swift */; };
+		5D95945D1BF7CE570002348F /* FleekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95945C1BF7CE570002348F /* FleekUITests.swift */; };
+		5D95946B1BF7D3D30002348F /* ViewBarbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95946A1BF7D3D30002348F /* ViewBarbers.swift */; };
+		5D95946D1BF7D8DE0002348F /* BarberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D95946C1BF7D8DE0002348F /* BarberCell.swift */; };
+		5D9594751BF7E25C0002348F /* BarberShop1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594701BF7E25C0002348F /* BarberShop1.jpg */; };
+		5D9594761BF7E25C0002348F /* BarberShop2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594711BF7E25C0002348F /* BarberShop2.jpg */; };
+		5D9594771BF7E25C0002348F /* BarberShop3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594721BF7E25C0002348F /* BarberShop3.jpg */; };
+		5D9594781BF7E25C0002348F /* BarberShop4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594731BF7E25C0002348F /* BarberShop4.jpg */; };
+		5D9594791BF7E25C0002348F /* BarberShop5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9594741BF7E25C0002348F /* BarberShop5.jpg */; };
+		5D95947B1BF7EB110002348F /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D95947A1BF7EB110002348F /* Star.png */; };
+		5D95947D1BF835340002348F /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D95947C1BF835340002348F /* Profile.png */; };
+		5D95947F1BF83C740002348F /* NewPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D95947E1BF83C740002348F /* NewPhoto.jpg */; };
+		5D9594811BF83CF20002348F /* CreateBarber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9594801BF83CF20002348F /* CreateBarber.swift */; };
+		5D9594831BF930D70002348F /* ViewBarber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9594821BF930D70002348F /* ViewBarber.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D95944E1BF7CE570002348F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9594311BF7CE570002348F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9594381BF7CE570002348F;
+			remoteInfo = Fleek;
+		};
+		5D9594591BF7CE570002348F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9594311BF7CE570002348F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9594381BF7CE570002348F;
+			remoteInfo = Fleek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D9594391BF7CE570002348F /* Fleek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fleek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D95943C1BF7CE570002348F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D95943E1BF7CE570002348F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D9594411BF7CE570002348F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D9594431BF7CE570002348F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D9594461BF7CE570002348F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D9594481BF7CE570002348F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D95944D1BF7CE570002348F /* FleekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9594511BF7CE570002348F /* FleekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleekTests.swift; sourceTree = "<group>"; };
+		5D9594531BF7CE570002348F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9594581BF7CE570002348F /* FleekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D95945C1BF7CE570002348F /* FleekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleekUITests.swift; sourceTree = "<group>"; };
+		5D95945E1BF7CE570002348F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D95946A1BF7D3D30002348F /* ViewBarbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBarbers.swift; sourceTree = "<group>"; };
+		5D95946C1BF7D8DE0002348F /* BarberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarberCell.swift; sourceTree = "<group>"; };
+		5D9594701BF7E25C0002348F /* BarberShop1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BarberShop1.jpg; path = "../../Fleek Images/BarberShop1.jpg"; sourceTree = "<group>"; };
+		5D9594711BF7E25C0002348F /* BarberShop2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BarberShop2.jpg; path = "../../Fleek Images/BarberShop2.jpg"; sourceTree = "<group>"; };
+		5D9594721BF7E25C0002348F /* BarberShop3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BarberShop3.jpg; path = "../../Fleek Images/BarberShop3.jpg"; sourceTree = "<group>"; };
+		5D9594731BF7E25C0002348F /* BarberShop4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BarberShop4.jpg; path = "../../Fleek Images/BarberShop4.jpg"; sourceTree = "<group>"; };
+		5D9594741BF7E25C0002348F /* BarberShop5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BarberShop5.jpg; path = "../../Fleek Images/BarberShop5.jpg"; sourceTree = "<group>"; };
+		5D95947A1BF7EB110002348F /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star.png; path = "../../Fleek Images/Star.png"; sourceTree = "<group>"; };
+		5D95947C1BF835340002348F /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Profile.png; path = ../../Profile.png; sourceTree = "<group>"; };
+		5D95947E1BF83C740002348F /* NewPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NewPhoto.jpg; path = ../../NewPhoto.jpg; sourceTree = "<group>"; };
+		5D9594801BF83CF20002348F /* CreateBarber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBarber.swift; sourceTree = "<group>"; };
+		5D9594821BF930D70002348F /* ViewBarber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBarber.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9594361BF7CE570002348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D95944A1BF7CE570002348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9594551BF7CE570002348F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9594301BF7CE570002348F = {
+			isa = PBXGroup;
+			children = (
+				5D95943B1BF7CE570002348F /* Fleek */,
+				5D9594501BF7CE570002348F /* FleekTests */,
+				5D95945B1BF7CE570002348F /* FleekUITests */,
+				5D95943A1BF7CE570002348F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D95943A1BF7CE570002348F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9594391BF7CE570002348F /* Fleek.app */,
+				5D95944D1BF7CE570002348F /* FleekTests.xctest */,
+				5D9594581BF7CE570002348F /* FleekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D95943B1BF7CE570002348F /* Fleek */ = {
+			isa = PBXGroup;
+			children = (
+				5D95943C1BF7CE570002348F /* AppDelegate.swift */,
+				5D95943E1BF7CE570002348F /* ViewController.swift */,
+				5D9594401BF7CE570002348F /* Main.storyboard */,
+				5D9594821BF930D70002348F /* ViewBarber.swift */,
+				5D95946A1BF7D3D30002348F /* ViewBarbers.swift */,
+				5D95946C1BF7D8DE0002348F /* BarberCell.swift */,
+				5D9594801BF83CF20002348F /* CreateBarber.swift */,
+				5D95947E1BF83C740002348F /* NewPhoto.jpg */,
+				5D95947C1BF835340002348F /* Profile.png */,
+				5D95947A1BF7EB110002348F /* Star.png */,
+				5D9594701BF7E25C0002348F /* BarberShop1.jpg */,
+				5D9594711BF7E25C0002348F /* BarberShop2.jpg */,
+				5D9594721BF7E25C0002348F /* BarberShop3.jpg */,
+				5D9594731BF7E25C0002348F /* BarberShop4.jpg */,
+				5D9594741BF7E25C0002348F /* BarberShop5.jpg */,
+				5D9594431BF7CE570002348F /* Assets.xcassets */,
+				5D9594451BF7CE570002348F /* LaunchScreen.storyboard */,
+				5D9594481BF7CE570002348F /* Info.plist */,
+			);
+			path = Fleek;
+			sourceTree = "<group>";
+		};
+		5D9594501BF7CE570002348F /* FleekTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9594511BF7CE570002348F /* FleekTests.swift */,
+				5D9594531BF7CE570002348F /* Info.plist */,
+			);
+			path = FleekTests;
+			sourceTree = "<group>";
+		};
+		5D95945B1BF7CE570002348F /* FleekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D95945C1BF7CE570002348F /* FleekUITests.swift */,
+				5D95945E1BF7CE570002348F /* Info.plist */,
+			);
+			path = FleekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D9594381BF7CE570002348F /* Fleek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9594611BF7CE570002348F /* Build configuration list for PBXNativeTarget "Fleek" */;
+			buildPhases = (
+				5D9594351BF7CE570002348F /* Sources */,
+				5D9594361BF7CE570002348F /* Frameworks */,
+				5D9594371BF7CE570002348F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fleek;
+			productName = Fleek;
+			productReference = 5D9594391BF7CE570002348F /* Fleek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D95944C1BF7CE570002348F /* FleekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9594641BF7CE570002348F /* Build configuration list for PBXNativeTarget "FleekTests" */;
+			buildPhases = (
+				5D9594491BF7CE570002348F /* Sources */,
+				5D95944A1BF7CE570002348F /* Frameworks */,
+				5D95944B1BF7CE570002348F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D95944F1BF7CE570002348F /* PBXTargetDependency */,
+			);
+			name = FleekTests;
+			productName = FleekTests;
+			productReference = 5D95944D1BF7CE570002348F /* FleekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D9594571BF7CE570002348F /* FleekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9594671BF7CE570002348F /* Build configuration list for PBXNativeTarget "FleekUITests" */;
+			buildPhases = (
+				5D9594541BF7CE570002348F /* Sources */,
+				5D9594551BF7CE570002348F /* Frameworks */,
+				5D9594561BF7CE570002348F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D95945A1BF7CE570002348F /* PBXTargetDependency */,
+			);
+			name = FleekUITests;
+			productName = FleekUITests;
+			productReference = 5D9594581BF7CE570002348F /* FleekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D9594311BF7CE570002348F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cody Sugarman";
+				TargetAttributes = {
+					5D9594381BF7CE570002348F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5D95944C1BF7CE570002348F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5D9594381BF7CE570002348F;
+					};
+					5D9594571BF7CE570002348F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5D9594381BF7CE570002348F;
+					};
+				};
+			};
+			buildConfigurationList = 5D9594341BF7CE570002348F /* Build configuration list for PBXProject "Fleek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D9594301BF7CE570002348F;
+			productRefGroup = 5D95943A1BF7CE570002348F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9594381BF7CE570002348F /* Fleek */,
+				5D95944C1BF7CE570002348F /* FleekTests */,
+				5D9594571BF7CE570002348F /* FleekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D9594371BF7CE570002348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D95947B1BF7EB110002348F /* Star.png in Resources */,
+				5D9594471BF7CE570002348F /* LaunchScreen.storyboard in Resources */,
+				5D9594781BF7E25C0002348F /* BarberShop4.jpg in Resources */,
+				5D9594761BF7E25C0002348F /* BarberShop2.jpg in Resources */,
+				5D9594441BF7CE570002348F /* Assets.xcassets in Resources */,
+				5D95947F1BF83C740002348F /* NewPhoto.jpg in Resources */,
+				5D9594771BF7E25C0002348F /* BarberShop3.jpg in Resources */,
+				5D9594421BF7CE570002348F /* Main.storyboard in Resources */,
+				5D9594751BF7E25C0002348F /* BarberShop1.jpg in Resources */,
+				5D9594791BF7E25C0002348F /* BarberShop5.jpg in Resources */,
+				5D95947D1BF835340002348F /* Profile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D95944B1BF7CE570002348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9594561BF7CE570002348F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D9594351BF7CE570002348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D95943F1BF7CE570002348F /* ViewController.swift in Sources */,
+				5D9594811BF83CF20002348F /* CreateBarber.swift in Sources */,
+				5D95946D1BF7D8DE0002348F /* BarberCell.swift in Sources */,
+				5D95943D1BF7CE570002348F /* AppDelegate.swift in Sources */,
+				5D9594831BF930D70002348F /* ViewBarber.swift in Sources */,
+				5D95946B1BF7D3D30002348F /* ViewBarbers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9594491BF7CE570002348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9594521BF7CE570002348F /* FleekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9594541BF7CE570002348F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D95945D1BF7CE570002348F /* FleekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D95944F1BF7CE570002348F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9594381BF7CE570002348F /* Fleek */;
+			targetProxy = 5D95944E1BF7CE570002348F /* PBXContainerItemProxy */;
+		};
+		5D95945A1BF7CE570002348F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9594381BF7CE570002348F /* Fleek */;
+			targetProxy = 5D9594591BF7CE570002348F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D9594401BF7CE570002348F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9594411BF7CE570002348F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D9594451BF7CE570002348F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9594461BF7CE570002348F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D95945F1BF7CE570002348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D9594601BF7CE570002348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D9594621BF7CE570002348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fleek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.Fleek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D9594631BF7CE570002348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fleek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.Fleek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D9594651BF7CE570002348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FleekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.FleekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleek.app/Fleek";
+			};
+			name = Debug;
+		};
+		5D9594661BF7CE570002348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FleekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.FleekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fleek.app/Fleek";
+			};
+			name = Release;
+		};
+		5D9594681BF7CE570002348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FleekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.FleekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fleek;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5D9594691BF7CE570002348F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FleekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = come.Example.FleekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fleek;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D9594341BF7CE570002348F /* Build configuration list for PBXProject "Fleek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D95945F1BF7CE570002348F /* Debug */,
+				5D9594601BF7CE570002348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9594611BF7CE570002348F /* Build configuration list for PBXNativeTarget "Fleek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9594621BF7CE570002348F /* Debug */,
+				5D9594631BF7CE570002348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D9594641BF7CE570002348F /* Build configuration list for PBXNativeTarget "FleekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9594651BF7CE570002348F /* Debug */,
+				5D9594661BF7CE570002348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D9594671BF7CE570002348F /* Build configuration list for PBXNativeTarget "FleekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9594681BF7CE570002348F /* Debug */,
+				5D9594691BF7CE570002348F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D9594311BF7CE570002348F /* Project object */;
+}
